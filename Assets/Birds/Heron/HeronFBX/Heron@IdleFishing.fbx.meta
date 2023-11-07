@@ -1,67 +1,168 @@
 fileFormatVersion: 2
 guid: 8a3c1495d77e6413e94946be83861ab5
 ModelImporter:
-  serializedVersion: 16
-  fileIDToRecycleName:
-    100000: HeronMesh
-    100002: MasterMover
-    100004: RootDummy
-    100006: Root
-    100008: Lhip
-    100010: knee2
-    100012: ankle2
-    100014: foot2
-    100016: Rhip
-    100018: knee3
-    100020: ankle3
-    100022: foot3
-    100024: Neck1
-    100026: Neck2
-    100028: Neck3
-    100030: Neck4
-    100032: Head
-    100034: Beak
-    100036: //RootNode
-    400000: HeronMesh
-    400002: MasterMover
-    400004: RootDummy
-    400006: Root
-    400008: Lhip
-    400010: knee2
-    400012: ankle2
-    400014: foot2
-    400016: Rhip
-    400018: knee3
-    400020: ankle3
-    400022: foot3
-    400024: Neck1
-    400026: Neck2
-    400028: Neck3
-    400030: Neck4
-    400032: Head
-    400034: Beak
-    400036: //RootNode
-    3300000: Root
-    4300000: HeronMesh
-    7400000: Take 001
-    11100000: //RootNode
-    13700000: Root
-    13700002: HeronMesh
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: HeronMesh
+  - first:
+      1: 100002
+    second: MasterMover
+  - first:
+      1: 100004
+    second: RootDummy
+  - first:
+      1: 100006
+    second: Root
+  - first:
+      1: 100008
+    second: Lhip
+  - first:
+      1: 100010
+    second: knee2
+  - first:
+      1: 100012
+    second: ankle2
+  - first:
+      1: 100014
+    second: foot2
+  - first:
+      1: 100016
+    second: Rhip
+  - first:
+      1: 100018
+    second: knee3
+  - first:
+      1: 100020
+    second: ankle3
+  - first:
+      1: 100022
+    second: foot3
+  - first:
+      1: 100024
+    second: Neck1
+  - first:
+      1: 100026
+    second: Neck2
+  - first:
+      1: 100028
+    second: Neck3
+  - first:
+      1: 100030
+    second: Neck4
+  - first:
+      1: 100032
+    second: Head
+  - first:
+      1: 100034
+    second: Beak
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      4: 400000
+    second: HeronMesh
+  - first:
+      4: 400002
+    second: MasterMover
+  - first:
+      4: 400004
+    second: RootDummy
+  - first:
+      4: 400006
+    second: Root
+  - first:
+      4: 400008
+    second: Lhip
+  - first:
+      4: 400010
+    second: knee2
+  - first:
+      4: 400012
+    second: ankle2
+  - first:
+      4: 400014
+    second: foot2
+  - first:
+      4: 400016
+    second: Rhip
+  - first:
+      4: 400018
+    second: knee3
+  - first:
+      4: 400020
+    second: ankle3
+  - first:
+      4: 400022
+    second: foot3
+  - first:
+      4: 400024
+    second: Neck1
+  - first:
+      4: 400026
+    second: Neck2
+  - first:
+      4: 400028
+    second: Neck3
+  - first:
+      4: 400030
+    second: Neck4
+  - first:
+      4: 400032
+    second: Head
+  - first:
+      4: 400034
+    second: Beak
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: Root
+  - first:
+      43: 4300000
+    second: HeronMesh
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Root
+  - first:
+      137: 13700002
+    second: HeronMesh
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 3
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -69,35 +170,72 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
+    useFileScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
