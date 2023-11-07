@@ -14,7 +14,7 @@ Shader "Foam" {
 		ColorMask RGB
 		Pass {
 			Color [_Color]
-			SetTexture [_MainTex] {constantColor[_Color] combine texture * primary double, texture * constant double}
+			SetTexture [_MainTex] {constantColor[_Color] combine texture * primary, texture * constant double}
 			SetTexture [_Cutout] { combine previous, previous * texture }	
 		}
 	}
