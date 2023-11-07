@@ -18,12 +18,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.modules.particlesystem": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.modules.physics": {
       "version": "1.0.0",
       "depth": 0,
@@ -44,12 +38,6 @@
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.terrain": "1.0.0"
       }
-    },
-    "com.unity.modules.wind": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
     }
   }
 }
