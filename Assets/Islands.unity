@@ -112,7 +112,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.6016131, g: 0.60206634, b: 0.60140747, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!29 &16
 OcclusionCullingSettings:
@@ -14786,13 +14786,13 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: f3e24051cd111f12a000e6888f962b59, type: 2}
-  m_TreeDistance: 1100
-  m_TreeBillboardDistance: 200
+  m_TreeDistance: 1000
+  m_TreeBillboardDistance: 300
   m_TreeCrossFadeLength: 32
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 230
+  m_TreeMaximumFullLODCount: 100
+  m_DetailObjectDistance: 400
   m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
+  m_HeightmapPixelError: 2
   m_SplatMapDistance: 1000
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
@@ -14801,7 +14801,7 @@ Terrain:
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 0
   m_MaterialTemplate: {fileID: 10650, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 0
   m_PreserveTreePrototypeLayers: 0
