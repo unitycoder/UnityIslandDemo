@@ -97,9 +97,9 @@ public class Heron : MonoBehaviour
 	{
 		while (true)
 		{
-			yield return StartCoroutine(SeekPlayer());
-			yield return StartCoroutine(Idle());
-			yield return StartCoroutine(Fish());
+			yield return StartCoroutine("SeekPlayer");
+			yield return StartCoroutine("Idle");
+			yield return StartCoroutine("Fish");
 		}
 	}
 
@@ -242,7 +242,7 @@ public class Heron : MonoBehaviour
 				StopCoroutine("Idle");
 				strechNeck = false;
 				StopCoroutine("SeekPlayer");
-				Scared();
+				StartCoroutine("Scared");
 			}
 
 			yield return null;
